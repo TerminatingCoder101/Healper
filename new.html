@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Google Login Form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styling.css">
   </head>
+
   <body>
-    <h1>Login with Google</h1>
+        <h1>Welcome to Healper!</h1>
+        <br>
+    <div class="opening">
+        <h2 style="text-align-last: center;">The healing helper! An AI and ML based bot, purposed to finding medical solutions convenient!</h4>
+        <br>
+        <h3>Healper is designed to give 10 remedies for any medical condition you may have!</h3>
+        <h3>Click the button below to proceed!</h3>
+    </div>
+
     <form action="https://accounts.google.com/o/oauth2/auth">
-      <input type="hidden" name="response_type" value="token">
-      <input type="hidden" name="client_id" value="YOUR_CLIENT_ID">
-      <input type="hidden" name="redirect_uri" value="https://healper.vercel.app">
-      <input type="hidden" name="scope" value="openid email profile">
-      <button type="submit">Sign in with Google</button>
+        <input type="hidden" name="response_type" value="token">
+        <input type="hidden" name="client_id" value="363069478432-7773ij8j5gl08gma7uauohi1h8uj9uql.apps.googleusercontent.com">
+        <input type="hidden" name="redirect_uri" value="https://healper.vercel.app">
+        <input type="hidden" name="scope" value="openid email profile">
+        <button type="submit"><i class='bx bxl-google'></i></button>
     </form>
   </body>
 </html>

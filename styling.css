@@ -1,0 +1,48 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+html{
+    background-color: rgb(205, 205, 205);
+}
+
+h1{
+    padding: 2rem 5%;
+    font-size: 5rem;
+    color: rgb(126, 90, 216);
+    background-color: rgb(147, 147, 147);
+    border-radius: 50px;
+}
+
+.opening{
+    align-content: center;
+    padding: 2rem 5%;
+    color: rgb(126, 90, 216);
+    background-color: rgb(147, 147, 147);
+    border-radius: 50px;
+    justify-content: center;
+}
+
+i{
+    font-size: 3rem;
+    color: rgb(58, 85, 218);
+    background-color: aquamarine;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: .5s ease;
+
+}
+
+button{
+    padding-top: 10px;
+    border: none;
+    background: none;
+}
+
+
